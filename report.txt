@@ -1,0 +1,22 @@
+ Report:
+  objectives
+1) On the approach to data cleaning to model deployment,
+    Main objective is to build a predictive model and to build a one, my dataset was imported from as zip file from the link provided on the exam platform, i checked for the rows, shape, type of data. After this i checked for the missing values using white_wine.isna().sum() and  duplicated values using data.
+    duplicated().i made sure my data was cleaned.univariate analysis was carried out to check for skewnees and correlation with the targets.
+    After which the target features was mapped with categorical to descibe each digits
+    Then the next step i took was to split my data using the train_test_split(80/20), scaling my dataset 
+    using MinMaxScaler method. My dataset all numerical,cleaned was fit and suitable for model deployment
+
+
+2)Base on my metrics of my model, according to my metrics From the classification report result, our model is more predictive at quality ;good'with precision and f1_score at 0.63 and 0.74 respectively respectively, 
+whille our model tends to be predictive at quality 'average'  at quality average with precision and f1 score around 0.54 and 0.28 respectively.
+quality 'bad and best' tends to have lowest quality because both the f1 and precison tends towards zero.
+both average and good tends to higher predictive value.
+in summary according to the metrics, our model is more predictive and price for good and average
+
+
+3) Based on my model feature imortance or coefficients, the most features that would influence our wine quality alcohol quantity,and some few others features
+
+
+4)How my result would help wine producers maximize profita, such as improing production consistency or identify key quality factors
+
